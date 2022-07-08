@@ -1,1 +1,1 @@
-/home/dmitrii/Desktop/programming/vm-thing/vm/target/debug/vm: /home/dmitrii/Desktop/programming/vm-thing/vm/src/cpu.rs /home/dmitrii/Desktop/programming/vm-thing/vm/src/device.rs /home/dmitrii/Desktop/programming/vm-thing/vm/src/instruction.rs /home/dmitrii/Desktop/programming/vm-thing/vm/src/main.rs /home/dmitrii/Desktop/programming/vm-thing/vm/src/ram.rs
+/home/dmitrii/Desktop/programming/vm-thing/vm/target/debug/vm: /home/dmitrii/Desktop/programming/vm-thing/vm/src/main.rs
