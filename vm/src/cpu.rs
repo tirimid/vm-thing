@@ -112,6 +112,9 @@ impl Cpu {
         &mut self.devs[self.active_ram_dev as usize]
     }
 
+    // execute a single instruction in the `Instruction` format.
+    // modifies cpu state according to execution rules.
+    // does not advance the instruction pointer.
     pub fn exec_instruction(&mut self, inst: Instruction) -> Result<(), Box<dyn Error>> {
         if self.flags_reg & CpuFlags::Nop as u16 > 0 {
             self.flags_reg &= !(CpuFlags::Nop as u16);
